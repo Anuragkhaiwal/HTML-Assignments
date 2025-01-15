@@ -1,0 +1,168 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    max-width: 150px;
+}
+nav{
+    flex-grow: 1;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #4d09df; /* Add a hover effect (optional) */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+/* Home Page */
+.intro {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+.background-image {
+    background-image: url('imgs/BTPL.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 60px;
+    text-align: center;
+}
+
+.background-image .overlay {
+    
+    color: white;
+    padding: 20px;
+}
+
+h1, h2 {
+    margin: 0;
+    padding: 10px;
+}
+
+/* About Us Page */
+.about {
+    padding: 30px;
+    background-color: #fafafa;
+    text-align: center;
+}
+
+/* Gallery Page */
+.gallery {
+    padding: 50px;
+    text-align: center;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: auto;
+}
+
+/* Contact Us Page */
+.contact {
+    padding: 50px;
+    background-color: #fafafa;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact label {
+    margin-bottom: 5px;
+}
+
+.contact input, .contact textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1em;
+}
+
+.contact button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #444;
+}
+
+/* Social Links */
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    text-decoration: none;
+    font-size: 30px; /* Adjust size of icons */
+    margin-right: 15px;
+    color: #333;
+}
+
+.social-links a:hover {
+    color: #0077b5; /* LinkedIn blue */
+}
+
+.social-links .linkedin {
+    color: #0077b5; /* LinkedIn blue */
+}
+
+.social-links .instagram {
+    color: #e4405f; /* Instagram pink */
+}
+
+.social-links a i {
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+
+
